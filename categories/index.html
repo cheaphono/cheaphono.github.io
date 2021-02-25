@@ -24,6 +24,10 @@
 <link rel="stylesheet" href="/css/main.css">
 
     
+<link rel="stylesheet" href="/css/iconfont/iconfont.css">
+
+    <link rel="stylesheet" href="./iconfont.css">
+    
     
 
 
@@ -137,6 +141,18 @@
                     </v-list-item>
                 
             
+                
+                    <v-list-item href="/categories/%E8%BD%BB%E9%92%A2%E9%BE%99%E9%AA%A8%E8%AE%BE%E8%AE%A1/" link>
+                        <v-badge :value="menuHover" transition="slide-y-transition" inline content="1" >
+                            <v-hover v-model="menuHover">
+                                <v-list-item-content>
+                                    <span>轻钢龙骨设计</span>                              
+                                </v-list-item-content>                           
+                            </v-hover>
+                        </v-badge>
+                    </v-list-item>
+                
+            
         </v-list>    
     
 
@@ -144,8 +160,8 @@
         <div class="footer-social">
             
                 
-                <v-btn icon href="mailto:759773963@qq.com" target="_blank">
-                    <v-icon>fas fa-envelope</v-icon>
+                <v-btn icon href="/img/QQ.jpg" target="_blank">
+                    <v-icon>fab fa-qq</v-icon>
                 </v-btn>
             
                 
@@ -153,9 +169,24 @@
                     <v-icon>fab fa-weibo</v-icon>
                 </v-btn>
             
+                
+                <v-btn icon href="/img/%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.jpg" target="_blank">
+                    <v-icon>fab fa-weixin</v-icon>
+                </v-btn>
+            
+                
+                <v-btn icon href="mailto:759773963@qq.com" target="_blank">
+                    <v-icon>fas fa-envelope</v-icon>
+                </v-btn>
+            
         </div>
         <v-divider></v-divider>
         <div class="footer-content">
+            
+                <span id="busuanzi_container_site_uv" style="display: none;"> 
+                    Total Visitors <span id="busuanzi_value_site_uv"></span>
+                </span>
+                <br>
             
             <span>Theme: <a target="_blank" rel="noopener" href="https://github.com/kb1000fx/hexo-theme-insulin">Insulin</a></span><br>
             <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></span><br>
@@ -164,6 +195,7 @@
                 柴夫霍偌
             </span>
         </div>
+        <span class="iconfont icon-icon-zhihu"></span>
     </div>
 </div>
 
@@ -230,14 +262,14 @@
 
                             <v-card class="elevation-2 post-card">
     <div class="post-header">
-        <a class="post-header-title font-weight-medium" href="/categories/index.html">分类</a>
+        <a class="post-header-title font-weight-medium" href="/categories/index.html">Categories</a>
     </div>
     <div class="post-content typo">
         
             <div class="page-describe">
                 counter.categories
             </div>
-            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%92%A2%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1/">钢结构设计</a><span class="category-list-count">1</span></li></ul>
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E8%BD%BB%E9%92%A2%E9%BE%99%E9%AA%A8%E8%AE%BE%E8%AE%A1/">轻钢龙骨设计</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%92%A2%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1/">钢结构设计</a><span class="category-list-count">1</span></li></ul>
         
     </div>
 </v-card>
@@ -274,6 +306,8 @@
 
 
 
+
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

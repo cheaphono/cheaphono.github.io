@@ -24,6 +24,10 @@
 <link rel="stylesheet" href="/css/main.css">
 
     
+<link rel="stylesheet" href="/css/iconfont/iconfont.css">
+
+    <link rel="stylesheet" href="./iconfont.css">
+    
     
 
 
@@ -135,6 +139,18 @@
                     </v-list-item>
                 
             
+                
+                    <v-list-item href="/categories/%E8%BD%BB%E9%92%A2%E9%BE%99%E9%AA%A8%E8%AE%BE%E8%AE%A1/" link>
+                        <v-badge :value="menuHover" transition="slide-y-transition" inline content="1" >
+                            <v-hover v-model="menuHover">
+                                <v-list-item-content>
+                                    <span>轻钢龙骨设计</span>                              
+                                </v-list-item-content>                           
+                            </v-hover>
+                        </v-badge>
+                    </v-list-item>
+                
+            
         </v-list>    
     
 
@@ -142,8 +158,8 @@
         <div class="footer-social">
             
                 
-                <v-btn icon href="mailto:759773963@qq.com" target="_blank">
-                    <v-icon>fas fa-envelope</v-icon>
+                <v-btn icon href="/img/QQ.jpg" target="_blank">
+                    <v-icon>fab fa-qq</v-icon>
                 </v-btn>
             
                 
@@ -151,9 +167,24 @@
                     <v-icon>fab fa-weibo</v-icon>
                 </v-btn>
             
+                
+                <v-btn icon href="/img/%E6%89%AB%E7%A0%81%E5%85%B3%E6%B3%A8.jpg" target="_blank">
+                    <v-icon>fab fa-weixin</v-icon>
+                </v-btn>
+            
+                
+                <v-btn icon href="mailto:759773963@qq.com" target="_blank">
+                    <v-icon>fas fa-envelope</v-icon>
+                </v-btn>
+            
         </div>
         <v-divider></v-divider>
         <div class="footer-content">
+            
+                <span id="busuanzi_container_site_uv" style="display: none;"> 
+                    Total Visitors <span id="busuanzi_value_site_uv"></span>
+                </span>
+                <br>
             
             <span>Theme: <a target="_blank" rel="noopener" href="https://github.com/kb1000fx/hexo-theme-insulin">Insulin</a></span><br>
             <span>Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></span><br>
@@ -162,6 +193,7 @@
                 柴夫霍偌
             </span>
         </div>
+        <span class="iconfont icon-icon-zhihu"></span>
     </div>
 </div>
 
@@ -234,9 +266,23 @@
             
                 <v-timeline-item class="timeline-header" color="secondary lighten-2">
                     <a href="/archives/2021" class="timeline-title">2021</a>
-                    <span class="timeline-subtitle">归档</span>
+                    <span class="timeline-subtitle">Archives</span>
                 </v-timeline-item>
                 
+            
+            <v-timeline-item fill-dot small color="secondary lighten-2">
+                <div class="timeline-item-post d-none d-md-block">
+                    <span class="timeline-item-time">2021.02.25</span>
+                    <a href="/2021/02/25/%E9%83%91%E4%B8%9C%E6%96%B0%E5%8C%BA%E8%80%81%E5%B9%B4%E6%B4%BB%E5%8A%A8%E4%B8%AD%E5%BF%83/" class="timeline-item-title">郑东新区老年活动中心</a>
+                </div>
+                <div class="timeline-item-post-mobile d-block d-md-none">
+                    <span class="timeline-item-time">2021.02.25</span><br>
+                    <a href="/2021/02/25/%E9%83%91%E4%B8%9C%E6%96%B0%E5%8C%BA%E8%80%81%E5%B9%B4%E6%B4%BB%E5%8A%A8%E4%B8%AD%E5%BF%83/" class="timeline-item-title">郑东新区老年活动中心</a>
+                </div>
+                <v-divider></v-divider>
+            </v-timeline-item>
+        
+            
             
             <v-timeline-item fill-dot small color="secondary lighten-2">
                 <div class="timeline-item-post d-none d-md-block">
@@ -291,6 +337,8 @@
 
 
 
+
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
