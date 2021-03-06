@@ -48,7 +48,7 @@
     
     <title>
         
-            search | 木山の杂物志
+            山西晋中别墅样板间 | 木山の杂物志
         
     </title>
     
@@ -127,33 +127,12 @@
     </v-list>
     <v-divider></v-divider>
     
-        <v-list id="sub-menu" class="font-weight-medium" dense>
-            
-                
-                    <v-list-item href="/categories/%E9%92%A2%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1/" link>
-                        <v-badge :value="menuHover" transition="slide-y-transition" inline content="1" >
-                            <v-hover v-model="menuHover">
-                                <v-list-item-content>
-                                    <span>钢结构设计</span>                              
-                                </v-list-item-content>                           
-                            </v-hover>
-                        </v-badge>
-                    </v-list-item>
-                
-            
-                
-                    <v-list-item href="/categories/%E8%BD%BB%E9%92%A2%E9%BE%99%E9%AA%A8%E8%AE%BE%E8%AE%A1/" link>
-                        <v-badge :value="menuHover" transition="slide-y-transition" inline content="2" >
-                            <v-hover v-model="menuHover">
-                                <v-list-item-content>
-                                    <span>轻钢龙骨设计</span>                              
-                                </v-list-item-content>                           
-                            </v-hover>
-                        </v-badge>
-                    </v-list-item>
-                
-            
-        </v-list>    
+        <div class="post-toc">
+            <a href="/2021/03/06/%E5%B1%B1%E8%A5%BF%E6%99%8B%E4%B8%AD%E5%88%AB%E5%A2%85%E6%A0%B7%E6%9D%BF%E9%97%B4/" class="toc-header">Table of Contents</a>
+            <div class="toc-content">
+                <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">项目介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%BA%B8%E6%B1%87%E6%80%BB"><span class="toc-number">2.</span> <span class="toc-text">图纸汇总</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BB%BA%E7%AD%91%E6%95%88%E6%9E%9C%E5%9B%BE"><span class="toc-number">2.1.</span> <span class="toc-text">建筑效果图</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BB%BA%E7%AD%91%E5%9B%BE%E7%BA%B8"><span class="toc-number">2.2.</span> <span class="toc-text">建筑图纸</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E6%A8%A1%E5%9E%8B"><span class="toc-number">2.3.</span> <span class="toc-text">结构模型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%93%E6%9E%84%E5%9B%BE%E7%BA%B8"><span class="toc-number">2.4.</span> <span class="toc-text">结构图纸</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E8%AE%A1%E6%94%B6%E8%8E%B7"><span class="toc-number">3.</span> <span class="toc-text">设计收获</span></a></li></ol>
+            </div>
+        </div>
     
 
     <div id="footer">
@@ -261,16 +240,63 @@
 </v-row>
 
                             <v-card class="elevation-2 post-card">
-    <div class="post-header">
-        <a class="post-header-title font-weight-medium" href="/search/index.html">Search</a>
-    </div>
+    
+    
+        <div class="post-header">
+  <a class="post-header-title font-weight-medium" href="/2021/03/06/%E5%B1%B1%E8%A5%BF%E6%99%8B%E4%B8%AD%E5%88%AB%E5%A2%85%E6%A0%B7%E6%9D%BF%E9%97%B4/">山西晋中别墅样板间</a>
+  <div class="post-header-meta">   
+    <span>
+      <v-icon color="">event</v-icon>
+      Posted on:&nbsp;2021-03-06
+    </span>
+    <span>
+      <v-icon color="">event_available</v-icon>
+      Edited on:&nbsp;2021-03-06
+    </span>
+    <span>
+      <v-icon color="">folder</v-icon>
+      In:&nbsp;<a class="category-link" href="/categories/%E8%BD%BB%E9%92%A2%E9%BE%99%E9%AA%A8%E8%AE%BE%E8%AE%A1/">轻钢龙骨设计</a>
+    </span>
+    
+    <span>
+      <v-icon color="">visibility</v-icon>
+      Views:&nbsp;<span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span>
+    </span>
+    
+  </div>
+</div>
+
+    
+    
+    
+    
     <div class="post-content typo">
-        
-            <v-text-field label="Search" v-model="searchPageValue" prepend-icon="search" clearable clear-icon="clear" @keydown.enter="EnterSearch(searchPageValue,true)"></v-text-field>
-            <v-card class="elevation-0" id="search-result"></v-card>
+        <p>上次山西项目结束后，有甲方找到设计院想做装配式集成住宅，国内目前没有项目实施。他们找到我们老板，我们这边主做主体结构，设计院负责优化节点和模块设计。2月2号开始做结构，但是没有确定节点，按照普通主体结构设计。在年前提交第一版设计的时候根据他们节点进行墙体的分段调整，年后来到以后就进入改图阶段，一个是原有作图时的遗漏，二是设计院调整方案后的结构调整。在3月6号和设计院沟通后提交主体结构图纸，等待甲方回复意见。</p>
+<h3 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a><strong>项目介绍</strong></h3><p>建设地点：山西晋中<br>建筑形式：轻钢龙骨体系<br>建筑面积：221.46m<sup> 2 </sup><br>建筑层数：两层<br>建筑高度：9.2m</p>
+<h3 id="图纸汇总"><a href="#图纸汇总" class="headerlink" title="图纸汇总"></a><strong>图纸汇总</strong></h3><h4 id="建筑效果图"><a href="#建筑效果图" class="headerlink" title="建筑效果图"></a><strong>建筑效果图</strong></h4><h4 id="建筑图纸"><a href="#建筑图纸" class="headerlink" title="建筑图纸"></a><strong>建筑图纸</strong></h4><h4 id="结构模型"><a href="#结构模型" class="headerlink" title="结构模型"></a><strong>结构模型</strong></h4><h4 id="结构图纸"><a href="#结构图纸" class="headerlink" title="结构图纸"></a><strong>结构图纸</strong></h4><h3 id="设计收获"><a href="#设计收获" class="headerlink" title="设计收获"></a><strong>设计收获</strong></h3>
+    </div>
+    <!--文末结束语-->
+    
+        <div style="text-align:center;color: #ccc;font-size:24px;"> --- --------------------------- --- </div>
+    
+    <!--页脚广告-->
+    
+    <v-divider></v-divider>
+    
+    <div class="post-nav">             
+              
+          
+            <div class="post-nav-button float-right">
+                <a class="font-weight-bold text-right" href="/2021/02/25/%E9%83%91%E4%B8%9C%E6%96%B0%E5%8C%BA%E8%80%81%E5%B9%B4%E6%B4%BB%E5%8A%A8%E4%B8%AD%E5%BF%83/">      
+                    郑东新区老年活动中心
+                </a>
+                <v-icon>chevron_right</v-icon>
+            </div>
         
     </div>
 </v-card>
+
+
 
     <v-card class="comment-card elevation-2">
         <v-tabs v-model="commentTab"  id="comment-tabs" active-class="active-comment-tab">
@@ -280,6 +306,7 @@
             
         </v-tabs-items>
     </v-card>
+
         
                             <div id="mobile-footer" class="d-block d-md-none">
                                 <v-divider></v-divider>
@@ -309,6 +336,12 @@
 
 
 
+
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.8/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({
+        startOnLoad: true,
+        theme: "default"
+    });</script>
 
 
 
